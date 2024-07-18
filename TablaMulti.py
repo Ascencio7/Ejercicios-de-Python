@@ -5,7 +5,8 @@
 
 num = int(input("\nIngrese el número de la tabla: "))
 
-for num in range(1, 11, 1):
-    print(f"{num} x {num} = {num * num}")
+print("\n")
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
     
 print("\nFin del programa.\n")
