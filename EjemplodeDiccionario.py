@@ -55,6 +55,6 @@ while True:
                 encontrado = True
                 break # Se sale del bucle cuando ya se encontro el dato
         if not encontrado:
-            print("\nNo se encontró el registro.")
+            print("\nNo se encontró el registro ingresado.")
     else:
-        print("\nDebe ingresar 'si' o 'no'.")
+        print("\nDebe ingresar 'si' o 'no' para buscar el registro o finalizar el programa.")
